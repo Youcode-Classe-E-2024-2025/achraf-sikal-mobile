@@ -147,11 +147,35 @@ div p{
 }
 .FAQ h1{
     text-align: left;
-    font-family: "Archivo black";
+    font-family: "Akshar";
     font-size: 60px;
     font-weight: bolder;
     padding-right: 200px;
     padding-left: 30px;
+}
+.FAQ h2{
+    text-align: left;
+    font-family: "Akshar";
+    font-size: 30px;
+    font-weight: bolder;
+    padding-right: 200px;
+    padding-left: 60px;
+}
+.FAQ p{
+    text-align: left;
+    font-family: "Arial";
+    font-size: 15px;
+    font-weight: normal;
+    padding-right: 500px;
+    padding-left: 100px;
+}
+footer{
+    display: flex;
+}
+footer h6{
+    padding-left: 90px;
+    font-weight: bold;
+    color: #545454;
 }
 @media (max-width: 768px) {
     nav ul {
