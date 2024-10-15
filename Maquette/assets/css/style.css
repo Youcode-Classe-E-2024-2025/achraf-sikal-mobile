@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    height: 100vh;
+    margin: 0;
+}
+nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: black;
+}
+nav .logo {
+    width: 150px;
+    cursor: pointer;
+}
+nav .menu-icon {
+    width: 50px;
+    cursor: pointer;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: "Akshar";
+    font-size: xx-large;
+    font-weight: 900;
+    padding: 10px;
+    transition: color 0.3s;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Arial";
+    font-size: medium;
+    font-weight: 700;
+    padding: 10px;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #007bff;
+}
+.acheter-button {
+    background-color: white;
+    color: black;
+    font-weight: 900;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.acheter-button:hover {
+    background-color: #007bff;
+    color: #000000;
+}
+.contenair{
+    position: relative;
+}
+img {
+    width: 100%;
+    object-fit: fill;
+}
+button {
+    background-color: transparent;
+    color: black;
+    position: absolute;
+    left: 45%;
+    bottom: 70%;
+    font-weight: 900;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+.galaxy-ai{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+div h1{
+    font-size: 90px;
+    font-weight: bolder;
+}
+div p{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.galaxy-ai img{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    left: 33%;
+}
+.jeux-tit{
+    margin: 0;
+    padding: initial;
+}
+.jeux-tit h1{
+    margin: 0;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+.ecran{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+.ecran{
+    display: flex;
+}
+.ec-par div{
+    text-align: left;
+    font-size: 60px;
+    font-weight: bolder;
+    line-height: 0.8;
+    padding-left: 30px;
+}
+.ecran p{
+    text-align: left;
+    font-weight: normal;
+    padding-right: 200px;
+    padding-left: 30px;
+}
+.ecran-spec{
+    text-align: left;
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.FAQ h1{
+    text-align: left;
+    font-family: "Archivo black";
+    font-size: 60px;
+    font-weight: bolder;
+    padding-right: 200px;
+    padding-left: 30px;
+}
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background-color: black;
+        display: none;
+        width: 100%;
+    }
+    nav ul.active {
+        display: flex;
+    }
+    nav .menu-icon {
+        display: block;
+    }
+}
