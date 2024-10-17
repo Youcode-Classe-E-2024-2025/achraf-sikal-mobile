@@ -21,7 +21,7 @@ nav .logo {
     width: 150px;
     cursor: pointer;
 }
-nav .menu-icon {
+nav .menu-icon {/*hemburger menu icon in navbar*/
     width: 50px;
     cursor: pointer;
 }
@@ -35,7 +35,7 @@ nav ul li {
     list-style: none;
     margin: 0 20px;
 }
-nav a {
+nav a { /*galaxy fold6 in navbar*/
     text-decoration: none;
     color: white;
     font-family: "Akshar";
@@ -44,7 +44,7 @@ nav a {
     padding: 10px;
     transition: color 0.3s;
 }
-nav ul li a {
+nav ul li a {/*sections in navbar*/
     text-decoration: none;
     color: white;
     font-family: "Arial";
@@ -54,9 +54,9 @@ nav ul li a {
     transition: color 0.3s;
 }
 nav ul li a:hover {
-    color: #0e46ff;
+    color: #3284ff;
 }
-.acheter-button {
+.acheter-button {/*acheter botton inside navbar */
     background-color: white;
     color: black;
     font-weight: 900;
@@ -65,17 +65,17 @@ nav ul li a:hover {
     transition: background-color 0.3s, color 0.3s;
 }
 .acheter-button:hover {
-    background-color: #0e46ff;
+    background-color: #3284ff;
     color: #000000;
 }
 .contenair{
     position: relative;
 }
-img {
+img {/* fold6 image */
     width: 100%;
     object-fit: fill;
 }
-button {
+button {/*acheter botton inside the image */
     background-color: transparent;
     color: black;
     position: absolute;
@@ -91,20 +91,20 @@ button:hover {
     background-color: #000000;
     color: #ffffff;
 }
-.galaxy-ai{
+.galaxy-ai{/*galaxy ai section*/
     background-color: #000000;
     color: #ffffff;
     text-align: center;
 }
-div h1{
+div h1{/*galaxy ai section title*/
     font-size: 90px;
     font-weight: bolder;
 }
-div p{
+div p{/*galaxy ai section paragraph*/
     font-size: x-large;
     font-weight: bolder;
 }
-.galaxy-ai img{
+.galaxy-ai img{/*galaxy ai section stars*/
     position: relative;
     width: 400px;
     height: 400px;
@@ -189,7 +189,6 @@ footer a{
     font-weight: bold;
     font-size: 12px;
     color: #545454;
-    cursor:default;
 }
 @media (max-width: 870px) {
     nav ul {
@@ -207,7 +206,7 @@ footer a{
     nav .menu-icon {
         display: block;
     }
-    button {
+    button { /* botton inside the image */
         background-color: transparent;
         color: black;
         position: absolute;
