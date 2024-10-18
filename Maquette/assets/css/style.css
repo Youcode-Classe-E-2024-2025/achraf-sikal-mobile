@@ -14,8 +14,7 @@ nav {
     justify-content: space-between;
     padding: 0 20px;
     background-color: black;
-
-
+    margin-bottom: 5px;
 }
 nav .logo {
     width: 150px;
